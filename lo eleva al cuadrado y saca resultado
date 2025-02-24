@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	imprimir "dime 3 numeros "
+	leer x
+	leer r
+	leer d
+	si (r^2 +d^2=x^2)
+		r=r*r
+		d=d*d
+		x=x*x
+		imprimir " el resultado es igual a " x
+		
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+def calcular_x(n):
+    # Inicializar la suma
+    suma = 0
+
+    # Calcular la suma de la serie
+    for i in range(1, n + 1):
+        suma += i ** (i + 1)
+        
+    # Calcular x dividiendo la suma entre n
+    x = suma / n
+
+    # Devolver el resultado
+    return x
+def main():
+    # Pedir al usuario un número entero positivo n
+    n = int(input("Introduce un número entero positivo n: "))
+    # Calcular el valor de x
+    x = calcular_x(n)
+    # Mostrar el resultado con 5 decimales de precisión
+    print(f"El valor de x = {x:.5f}")
+# Ejecutar la función principal
+if __name__ == "__main__":
+    main()

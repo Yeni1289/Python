@@ -1,0 +1,10 @@
+import random
+
+def generar_password(longitud=10):
+    caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
+    password = "".join(random.choice(caracteres) for _ in range(longitud))
+    return password
+
+# Uso del generador de contraseñas
+if __name__ == "__main__":
+    print("Tu contraseña aleatoria es:", generar_password())

@@ -1,0 +1,18 @@
+Perfecto, aquí tienes un **código de programación generado al azar** (en este caso, un pequeño script en Python que realiza una tarea simple, pero única):
+
+```python
+import random
+import string
+
+def generar_clave_segura(longitud=12):
+    caracteres = string.ascii_letters + string.digits + "!@#$%^&*()"
+    clave = ''.join(random.choice(caracteres) for _ in range(longitud))
+    return clave
+
+if __name__ == "__main__":
+    print("Clave generada:", generar_clave_segura())
+```
+
+Este script genera una **clave segura aleatoria** con letras, números y símbolos especiales.
+
+¿Quieres que genere otro en otro lenguaje o con otra funcionalidad aleatoria?
